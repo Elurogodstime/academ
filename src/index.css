@@ -1,0 +1,375 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    border-bottom: 1px solid rgb(59, 59, 57);
+    font-size: 15px;
+    margin-bottom: 40px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.hambuger{
+    background-color: rgb(24, 24, 23);
+}
+
+.rest:hover{
+    padding-left: 10px;
+    background-color: rgb(42, 42, 51);
+    border-radius:2px ;
+}
+
+.drop:hover{
+    z-index: 1;
+}
+
+
+.Hero{
+    margin-top: 30px;
+}
+
+ul li:hover{
+    color:rgb(116, 115, 113);
+}
+
+.project-hover{
+    box-shadow: 0 0 30px rgb(91, 64, 1);
+    
+}
+
+.lesson{
+    padding: 20px;
+    box-shadow: 0 0 30px rgb(91, 64, 1);
+    
+}
+
+button{
+    border: 1px solid rgb(177, 139, 212);
+     padding: 10px;
+}
+
+.center{
+    margin-left: 15rem;
+    width: 100%;
+}
+
+.link{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(99, 97, 102);
+}
+
+.heros{
+    margin-top: 10rem;
+    margin-bottom: 30px;
+}
+
+/* .cards{
+    box-shadow: 0 0 10px rgb(91, 64, 1);
+} */
+
+.back-blur{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(91, 64, 1) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: -1;
+    top: 480px;
+    position: absolute;
+}
+
+
+
+
+.back-blur3{
+    width: 280px;
+    height: 370px;
+    background-color:rgb(133, 108, 200) ;
+    border-radius: 100px;
+    filter: blur(70px);
+    z-index: -1;
+    top: 570px;
+    opacity: 60%;
+    position: absolute;
+}
+
+.back-blur1{
+    width: 270px;
+    height: 370px;
+    background-color:rgba(90, 64, 3, 0.493) ;
+    filter: blur(60px);
+    z-index: -1;
+    top: 0;
+    left:66rem;
+    position: absolute;
+}
+
+.back-blur111{
+    width: 200px;
+    height: 200px;
+    background-color:rgba(116, 113, 107, 0.493) ;
+    filter: blur(60px);
+    z-index: -1;
+    top: 10rem;
+    left:66rem;
+    position: absolute;
+}
+
+.back-blur2{
+    width: 370px;
+    height: 370px;
+    background-color:rgb(223, 162, 8) ;
+    filter: blur(60px);
+    z-index: -1;
+    top: 750px;
+    left:60rem;
+    position: absolute;
+    opacity: 60%;
+}
+
+.back-blur4{
+    width: 370px;
+    height: 370px;
+    background-color:rgb(42, 107, 168) ;
+    filter: blur(60px);
+    z-index: -1;
+    top: 860px;
+    left:61rem;
+    position: absolute;
+}
+
+
+
+
+    .back-blur5{
+        width: 300px;
+        height: 270px;
+        background-color:rgb(219, 171, 58) ;
+        border-radius: 100px;
+        filter: blur(90px);
+        z-index: -1;
+        top: 100rem;
+        position: absolute;
+    }
+
+.back-blur7{
+    width: 300px;
+    height: 270px;
+    background-color:rgb(224, 160, 10) ;
+    border-radius: 100px;
+    filter: blur(80px);
+    z-index: -1;
+    top: 90rem;
+    left: 5rem;
+    position: absolute;
+}
+
+
+
+.back-blur8{
+    width: 300px;
+    height: 270px;
+    background-color:rgb(179, 127, 6) ;
+    border-radius: 100px;
+    filter: blur(80px);
+    z-index: 1;
+    top: 120rem;
+    left: 65rem;
+    position: absolute;
+}
+
+.back-blur9{
+    width: 300px;
+    height: 270px;
+    background-color:rgba(234, 238, 233, 0.117) ;
+    border-radius: 100px;
+    filter: blur(80px);
+    z-index: -1;
+    top: 170rem;
+    left: 65rem;
+    position: absolute;
+}
+
+
+.back-blur10{
+    width: 300px;
+    height: 270px;
+    background-color:rgb(69, 109, 43) ;
+    border-radius: 100px;
+    filter: blur(80px);
+    z-index: -1;
+    top: 170rem;
+    position: absolute;
+}
+
+
+
+
+.borders{
+    background-color: rgba(16, 16, 16, 0.843);
+    border: 1px rgb(70, 57, 81) solid;
+}
+
+.contact-main{
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact-main1{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+
+.border{
+     border: 1px rgb(70, 57, 81) solid;
+}
+
+.footer-text{
+    margin-bottom: 40px;
+    justify-content: space-between;
+    line-height: 40px;
+    color: rgb(116, 124, 153);
+}
+
+
+.image-footer{
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+ .back-blur13{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(175, 163, 49) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: -1;
+    top: 230rem;
+    right: 5rem;
+    position: absolute;
+}
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 5px;
+    
+     
+  }
+
+  .subtitle{
+    font-size: x-small;
+    color: rgb(190, 185, 185);
+  }
+
+  .back-blur11{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(80, 66, 160) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: -1;
+    top: 85rem;
+    right: 20rem;
+    position: absolute;
+}
+
+ .back-blur14{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(29, 102, 7) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: -1;
+    top: 280rem;
+    left: 10rem;
+    position: absolute;
+}
+
+ .back-blur15{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(179, 34, 154) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: 1;
+    top: 250rem;
+    right: 20rem;
+    position: absolute;
+}
+
+ .back-blur12{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(128, 110, 230) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: -1;
+    top: 315rem;
+    right: 10rem;
+    position: absolute;
+}
+
+ .back-blur13{
+    width: 300px;
+    height: 170px;
+    background-color:rgb(175, 163, 49) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: -1;
+    top: 350rem;
+    left: 10rem;
+    position: absolute;
+}
+
+.back-blur20{
+    width: 300px;
+    height: 100px;
+    background-color:rgb(89, 153, 51) ;
+    border-radius: 100px;
+    filter: blur(90px);
+    z-index: 1;
+    top: 0rem;
+    left: 20rem;
+    position: absolute;
+}
+
+.contact-main{
+    padding: 20px;
+}
+ 
+
+ .footer{
+    font-size: 1rem;
+ }
+
+  
+}
+
+
+
+@import "tailwindcss"
+
