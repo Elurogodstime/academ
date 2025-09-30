@@ -40,13 +40,13 @@ export const NavBar = () => {
        
           <ul className=' nav-bar flex gap-10 mx-10 justify-around flex-wrap align-center space-x-1.5 max-sm:text-amber-200  max-sm:hidden'>
            <a href="#"> <li className=''>Home</li></a>
-            <li className=' relative' 
+            <li className=' relative max-sm:text-2xl' 
             onMouseEnter={()=> setIsHover(true)} onMouseLeave={()=>setIsHover(false)}
             >
-              <a href="#lesson"><span>Lessons</span></a>
+              <a href="#lesson"><span className='nav-Bar'>Lessons</span></a>
 
               {isHover && (
-                <di className='lesson absolute top-6 left-0 p-5 rounded-2xl uppercase text-black bg-amber-600 cursor-pointer' >
+                <di className='lesson absolute nav-Bar top-6 left-0 p-5 rounded-2xl uppercase text-black bg-amber-600 cursor-pointer' >
                 <a href="#lesson"> <li>HTML TUTORIAL</li></a>
                 <li>CSS TUTORIAL</li>
                 <li>JAVASCRIPT TUTORIAL</li>
@@ -54,12 +54,12 @@ export const NavBar = () => {
               </di>
               )}
             </li>
-            <li className='projects relative' onMouseEnter={()=> setIsOpen(true)} onMouseLeave={()=> setIsOpen(false)}
+            <li className='projects relative max-sm:text-2xl' onMouseEnter={()=> setIsOpen(true)} onMouseLeave={()=> setIsOpen(false)}
                
             >
               <span className='cursor-pointer'>Projects</span>
              {isOpen && (
-              <div className='project-hover uppercase font-medium text-black bg-amber-600 p-5 cursor-pointer absolute top-7 rounded-2xl  left-0'>
+              <div className='project-hover nav-Bar uppercase font-medium text-black bg-amber-600 p-5 cursor-pointer absolute top-7 rounded-2xl  left-0'>
               <a href="https://www.google.com" target='blank'><li > ESTATE WEBSITE</li></a>
               <a href="https://www.google.com" target='blank'><li > BURGER WEBSITE</li></a>
                <a href="https://www.goggle.com" target='blank'><li >SCHOOL WEBSITE</li></a>
@@ -72,7 +72,7 @@ export const NavBar = () => {
            <li className='resource'  onMouseEnter={()=> setIsShow(true)} onMouseLeave={()=> setIsShow(false)}>
             <span>Resources</span>
             {isShow && (
-              <div className='absolute p-5 uppercase text-black font-medium bg-amber-500 rounded-2xl '>
+              <div className='absolute nav-Bar p-5 uppercase text-black font-medium bg-amber-500 rounded-2xl '>
                 <a href="https://www.google.com" target='blank'></a><li>Html links</li><a/>
               <li>Css links</li>
               <li>Javascript links</li>
