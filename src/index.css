@@ -169,7 +169,7 @@ button{
     background-color:rgb(179, 127, 6) ;
     border-radius: 100px;
     filter: blur(80px);
-    z-index: 1;
+    z-index: -1;
     top: 120rem;
     position: absolute;
 }
@@ -244,7 +244,7 @@ button{
 @media (max-width: 768px) {
 
    .nav-bar{
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 3.5rem;
    }
 
@@ -265,7 +265,6 @@ button{
   .hero-subtitle {
     font-size: 0.8rem;
     text-align: center;
-    margin-top: -50px;
     margin-bottom: 5px;
     
      

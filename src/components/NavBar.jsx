@@ -107,7 +107,7 @@ export const NavBar = () => {
               navShow? "block" : "hidden"
             }`}>
 
-              <span className='hambuger border absolute p-2 left-0 w-99 rounded-2xl h-99 '>
+              <span className='hambuger border absolute p-2 left-0 w-95 rounded-2xl h-99 '>
                  <a href="#"> <li className='rest '>Home</li></a>
             <li className='rest relative' 
             onMouseEnter={()=> setIsHover(true)} onMouseLeave={()=>setIsHover(false)}
