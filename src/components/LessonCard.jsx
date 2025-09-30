@@ -53,7 +53,7 @@ export const LessonCard = () => {
         <h2 className='text-2xl text-amber-50 my-4'>{lesson.title}</h2>
         <p>{lesson.description}</p>
 
-        <button className='bg-amber-00 m-2 border  rounded-2xl sm:w-35 lg:w-69 my-5 hover:bg-blue-400 max-sm:hover:hover:bg-blue-400 max-sm:hover:hover:text-black hover:text-black max-sm:hover:hover:font-bold hover:font-bold'>
+        <button className='bg-amber-00 m-2 border  rounded-2xl sm:w-35 lg:w-69 my-5 max-sm:active:bg-blue-400 hover:bg-blue-400 max-sm:hover:hover:bg-blue-400 max-sm:hover:hover:text-black hover:text-black max-sm:hover:hover:font-bold hover:font-bold'>
           <a href={lesson.link}>Start Learning</a>
         </button>
       </div>
