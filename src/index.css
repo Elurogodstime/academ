@@ -1,6 +1,8 @@
 body{
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .nav{
@@ -109,7 +111,6 @@ button{
     filter: blur(60px);
     z-index: -1;
     top: 0;
-    left:66rem;
     position: absolute;
 }
 
@@ -120,7 +121,6 @@ button{
     filter: blur(60px);
     z-index: -1;
     top: 10rem;
-    left:66rem;
     position: absolute;
 }
 
@@ -131,7 +131,6 @@ button{
     filter: blur(60px);
     z-index: -1;
     top: 750px;
-    left:60rem;
     position: absolute;
     opacity: 60%;
 }
@@ -143,23 +142,13 @@ button{
     filter: blur(60px);
     z-index: -1;
     top: 860px;
-    left:61rem;
     position: absolute;
 }
 
 
 
 
-    .back-blur5{
-        width: 300px;
-        height: 270px;
-        background-color:rgb(219, 171, 58) ;
-        border-radius: 100px;
-        filter: blur(90px);
-        z-index: -1;
-        top: 100rem;
-        position: absolute;
-    }
+   
 
 .back-blur7{
     width: 300px;
@@ -169,7 +158,6 @@ button{
     filter: blur(80px);
     z-index: -1;
     top: 90rem;
-    left: 5rem;
     position: absolute;
 }
 
@@ -183,7 +171,6 @@ button{
     filter: blur(80px);
     z-index: 1;
     top: 120rem;
-    left: 65rem;
     position: absolute;
 }
 
@@ -194,8 +181,7 @@ button{
     border-radius: 100px;
     filter: blur(80px);
     z-index: -1;
-    top: 170rem;
-    left: 65rem;
+    top: 165rem;
     position: absolute;
 }
 
@@ -207,7 +193,7 @@ button{
     border-radius: 100px;
     filter: blur(80px);
     z-index: -1;
-    top: 170rem;
+    top: 180rem;
     position: absolute;
 }
 
@@ -250,22 +236,26 @@ button{
     margin-bottom: 30px;
 }
 
- .back-blur13{
-    width: 300px;
-    height: 170px;
-    background-color:rgb(175, 163, 49) ;
-    border-radius: 100px;
-    filter: blur(90px);
-    z-index: -1;
-    top: 230rem;
-    right: 5rem;
-    position: absolute;
-}
+ 
 
 
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+
+   .nav-bar{
+    font-size: 0.5rem;
+   }
+
+    nav ul {
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+
+
   .hero-title {
     font-size: 2.3rem;
     text-align: center;
@@ -285,7 +275,20 @@ button{
     color: rgb(190, 185, 185);
   }
 
-  .back-blur11{
+  
+
+.contact-main{
+    padding: 20px;
+}
+ 
+
+ .footer{
+    font-size: 1rem;
+ }
+}
+
+
+.back-blur11{
     width: 300px;
     height: 170px;
     background-color:rgb(80, 66, 160) ;
@@ -293,9 +296,10 @@ button{
     filter: blur(90px);
     z-index: -1;
     top: 85rem;
-    right: 20rem;
+    
     position: absolute;
 }
+
 
  .back-blur14{
     width: 300px;
@@ -305,9 +309,8 @@ button{
     filter: blur(90px);
     z-index: -1;
     top: 280rem;
-    left: 10rem;
     position: absolute;
-}
+} 
 
  .back-blur15{
     width: 300px;
@@ -317,7 +320,6 @@ button{
     filter: blur(90px);
     z-index: 1;
     top: 250rem;
-    right: 20rem;
     position: absolute;
 }
 
@@ -329,7 +331,6 @@ button{
     filter: blur(90px);
     z-index: -1;
     top: 315rem;
-    right: 10rem;
     position: absolute;
 }
 
@@ -343,30 +344,6 @@ button{
     top: 350rem;
     left: 10rem;
     position: absolute;
-}
-
-.back-blur20{
-    width: 300px;
-    height: 100px;
-    background-color:rgb(89, 153, 51) ;
-    border-radius: 100px;
-    filter: blur(90px);
-    z-index: 1;
-    top: 0rem;
-    left: 20rem;
-    position: absolute;
-}
-
-.contact-main{
-    padding: 20px;
-}
- 
-
- .footer{
-    font-size: 1rem;
- }
-
-  
 }
 
 

@@ -20,7 +20,7 @@ export const Home = () => {
         )}
 
          {Hero.map(Heros=>
-            <p className='hero-title  text-8xl mx-10 font-bold text-center   ' key={Hero.Text}>Learn,Relearn,Build <br />  and Deploy with <span className='text-amber-300'>Technologies...</span> {Heros.Text}</p>
+            <p className='hero-title  text-8xl  flex-wrap font-bold text-center   ' key={Hero.Text}>Learn,Relearn,Build <br />  and Deploy with <span className='text-amber-300'>Technologies...</span> {Heros.Text}</p>
         )}
 
         {Hero.map(Heros=>
@@ -28,13 +28,13 @@ export const Home = () => {
             <p className='Hero   font-light  text-center subtitle ' > Learn HTML AND CSS from scratch here, Simple lessons <br />projects, and resources to help you master web development. <br /> No prior experience needed — start coding today!</p>
         )}
 
-        <div className='back-blur '></div>
-        <div className='back-blur3 '></div>
+        <div className='back-blur max-sm:hidden'></div>
+        <div className='back-blur3  max-sm:hidden'></div>
         <div className='back-blur20 '></div>
-        <div className='back-blur3 '></div>
-         <div className='back-blur8 '></div>
-          <div className='back-blur9 '></div>
-          <div className='back-blur10 '></div>
+        <div className='back-blur3   '></div>
+         <div className='back-blur8  max-sm:hidden'></div>
+          <div className='back-blur9  '></div>
+          <div className='back-blur10  max-sm:hidden'></div>
 
 <div className='flex text-center justify-center '>
         <button className='button text-center bg-black shadow-2xl hover:text-amber-300  border p-3 my-10 rounded-2xl px-10'>Get Started Now</button>

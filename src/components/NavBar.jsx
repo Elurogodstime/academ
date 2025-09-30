@@ -26,7 +26,7 @@ export const NavBar = () => {
 
     
    
-    <div className='nav flex justify-between sm:fixed'>
+    <div className='nav flex justify-between nav-bar'>
 
     {Logo.map(logos=>
             <h1 className='flex text-2xl list-none font-bold px-15 ' >{logos.Logo}
@@ -38,7 +38,7 @@ export const NavBar = () => {
 
 
        
-          <ul className='flex gap-10 mx-10 justify-center align-center space-x-1.5 max-sm:text-amber-200  max-sm:hidden'>
+          <ul className=' nav-bar flex gap-10 mx-10 justify-around flex-wrap align-center space-x-1.5 max-sm:text-amber-200  max-sm:hidden'>
            <a href="#"> <li className=''>Home</li></a>
             <li className=' relative' 
             onMouseEnter={()=> setIsHover(true)} onMouseLeave={()=>setIsHover(false)}
@@ -100,7 +100,6 @@ export const NavBar = () => {
             <button className='border rounded-2xl' onClick={()=> setNavShow(!navShow)} >
              <span  className='text-3xl text-amber-300'> {navShow ? "✖" : "☰"}</span> 
             </button>
-              
 
           
 
