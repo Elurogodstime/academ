@@ -2,6 +2,15 @@ import React from 'react'
 import About from "../assets/about.png"
 
 export const AboutUs = () => {
+
+  const contact = [
+    {
+      link: "https://web.whatsapp.com/send?phone=2349067045731"
+
+
+    }
+  ]
+
   return (
     <>
     
@@ -34,12 +43,25 @@ export const AboutUs = () => {
         </div>
 
         <div>
-            <img src={About} alt="" 
+            <div>
+              <img src={About} alt="" 
             className='w-50 border-2 -rotate-4 rounded-4xl my-5'
             />
+            </div>
+
+             <div>
+
+            
+            {contact.map((cont)=>
+            <a href={cont.link} target='_blank'>
+              <button className='bg-amber-00 m-2 border  rounded-2xl sm:w-45 lg:w-30 my-5 max-sm:active hover:bg-blue-400 max-sm:hover:hover:bg-blue-400 max-sm:hover:hover:text-black hover:text-black max-sm:hover:hover:font-bold hover:font-bold'>Contact Me</button>
+            </a>
+            )}
+         
+        </div>
         </div>
 
-        
+       
     </div>
     
     

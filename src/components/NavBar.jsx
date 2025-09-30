@@ -116,10 +116,10 @@ export const NavBar = () => {
 
               {isHover && (
                 <di className=' rest drop lesson absolute top-4 left-20 p-5 rounded-2xl uppercase text-black bg-blue-100 cursor-pointer' >
-                <a href="#lesson"> <li>HTML TUTORIAL</li></a>
-                <li>CSS TUTORIAL</li>
-                <li>JAVASCRIPT TUTORIAL</li>
-                <li>REACT TUTORIAL</li>
+                <a href="https://www.youtube.com/@KairoticNetwork" target='_blank'> <li>HTML TUTORIAL</li></a>
+                <a href="https://www.youtube.com/@KairoticNetwork" target='_blank'><li>CSS TUTORIAL</li></a>
+                <a href="https://www.youtube.com/@KairoticNetwork" target='_blank'><li>JAVASCRIPT TUTORIAL</li></a>
+                <a href="https://www.youtube.com/@KairoticNetwork" target='_blank'><li>REACT TUTORIAL</li></a>
               </di>
               )}
             </li>
@@ -129,8 +129,8 @@ export const NavBar = () => {
               <span className='cursor-pointer'>Projects</span>
              {isOpen && (
               <div className='project-hover drop uppercase font-medium text-black bg-amber-100 p-5 cursor-pointer absolute top-4 rounded-2xl  left-20'>
-              <a href="https://www.google.com" target='blank'><li > ESTATE WEBSITE</li></a>
-              <a href="https://www.google.com" target='blank'><li > BURGER WEBSITE</li></a>
+              <a  href="https://www.youtube.com/@KairoticNetwork" target='_blank'><li > ESTATE WEBSITE</li></a>
+              <a  href="https://www.youtube.com/@KairoticNetwork" target='_blank'><li > BURGER WEBSITE</li></a>
                <a href="https://www.goggle.com" target='blank'><li >SCHOOL WEBSITE</li></a>
               </div>
              )}
@@ -143,10 +143,10 @@ export const NavBar = () => {
             {isShow && (
               <div className='absolute p-5 uppercase text-black font-medium top-20 left-23 bg-amber-100 rounded-2xl '>
                 <a href="https://www.google.com" target='blank'></a><li>Html links</li><a/>
-              <li>Css links</li>
-              <li>Javascript links</li>
-              <li>React links</li>
-              <li>Ui/Ux links</li>
+               <a href="https://www.goggle.com" target='blank'><li>Css links</li></a>
+               <a href="https://www.goggle.com" target='blank'><li>Javascript links</li></a>
+              <a href="https://www.goggle.com" target='blank'><li>React links</li></a> 
+               <a href="https://www.goggle.com" target='blank'><li>Ui/Ux links</li></a>
               </div>
             )}
             </li>

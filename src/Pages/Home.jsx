@@ -6,7 +6,8 @@ export const Home = () => {
         {   
             Para : "Become A Web Developer",
             button : "Start Now"
-        }
+        },
+        
     ]
 
   return (
@@ -37,7 +38,10 @@ export const Home = () => {
           <div className='back-blur10  '></div>
 
 <div className='flex text-center justify-center '>
-        <button className='button text-center bg-black shadow-2xl hover:text-amber-300  border p-3 my-10 rounded-2xl px-10'>Get Started Now</button>
+<a href="https://www.youtube.com/@KairoticNetwork" target='_blank'>
+            <button className='button text-center bg-black shadow-2xl hover:text-amber-300  border p-3 my-10 rounded-2xl px-10'>Get Started Now</button>
+
+    </a> 
     </div>
     
     </div>
